@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Videographer & Musician</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body onload="updateVisitorCount()">
+  <header>
+    <div class="header-left">
+      <h1>Portfolio</h1>
+    </div>
+    <nav class="header-right">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#videos">Video Projects</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero-section">
+    <video autoplay muted loop id="heroVideo">
+      <source src="your-background-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="overlay">
+      <h1>John Doe</h1>
+      <p>Creative Videographer & Passionate Musician</p>
+      <br><br>
+      <a href="#about" class="btn">Explore My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="john deo 2.jpg" alt="Profile Picture" class="profile-pic">
+      <p>Hi, I'm John Doe, a professional videographer and musician with over 10 years of experience in creating cinematic masterpieces and captivating tunes...</p>
+    </div>
+  </section>
+
+  <section id="videos" class="section">
+    <h2>Video Projects</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <video controls width="250" height="500" class="media">
+          <source src="tum tum.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>Tum Tum</p>
+      </div>
+      <div class="gallery-item">
+        <video controls width="250" height="500" class="media">
+          <source src="ranjha.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>Ranjha</p>
+      </div>
+      <div class="gallery-item">
+        <video controls width="250" height="500" class="media">
+          <source src="Shyam Singha Roy.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>Shyam Singha Roy</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="music" class="section">
+    <h2>Music Tracks</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <div class="album-container">
+          <img src="sitaramam.jpg" alt="Album 1 Cover" class="album-cover">
+          <h3>Album 1</h3>
+        </div>
+        <audio controls class="media">
+          <source src="Inthandham.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+        <p>Inthandham</p>
+      </div>
+      <div class="gallery-item">
+        <div class="album-container">
+          <img src="kushi.jpg" alt="Album 2 Cover" class="album-cover">
+          <h3>Album 2</h3>
+        </div>
+        <audio controls class="media">
+          <source src="[iSongs.info] 02 - Ammaye Sannaga.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+        <p>Ammaye Sannaga</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section">
+    <h2>Client Testimonials</h2>
+    <div class="testimonials-container">
+      <div class="testimonial">
+        <p>"John Doe's videography was stunning! He perfectly captured every important moment. Highly recommend!"</p>
+        <h4>- Sarah J.</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Incredible music production skills! John's tracks are always top-notch and professional."</p>
+        <h4>- Mike D.</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Professional, creative, and a pleasure to work with. John exceeded all my expectations."</p>
+        <h4>- Emily K.</h4>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Services</h2>
+    <div class="services-container">
+      <div class="service-item">
+        <h3>Video Production</h3>
+        <p>From pre-production to editing, I offer complete video services to bring your vision to life.</p>
+      </div>
+      <div class="service-item">
+        <h3>Music Composition</h3>
+        <p>Crafting original music scores for films, commercials, and personal projects.</p>
+      </div>
+      <div class="service-item">
+        <h3>Event Coverage</h3>
+        <p>Professional videography and music services for weddings, corporate events, and more.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer style="text-align: center; padding: 20px; background-color: #f1f1f1; font-family: Arial, sans-serif;"></footer>
+    <p>III AIML SECTION A</p>
+    <p>221FA18036, 221FA18049, 221FA18057, 221FA18156</p>
+    <p>&copy; 2024 Vignan University. All rights reserved.</p>
+</footer>
+  <script src="index.js"></script>
+</body>
+</html>
